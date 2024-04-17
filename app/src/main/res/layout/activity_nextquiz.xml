@@ -43,14 +43,20 @@
 
         <TextView
             android:id="@+id/textQuestion"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
             android:layout_above="@id/radioGroup"
-            android:layout_marginBottom="10dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="232dp"
+            android:layout_marginEnd="94dp"
+            android:layout_marginBottom="21dp"
             android:text="Question will be here.."
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="25sp" />
+            android:textSize="20sp" />
 
         <RadioGroup
             android:id="@+id/radioGroup"
@@ -83,14 +89,14 @@
 
         <Button
             android:id="@+id/btnNext"
-            android:layout_width="match_parent"
+            android:layout_width="264dp"
             android:layout_height="wrap_content"
             android:layout_below="@id/radioGroup"
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="65dp"
             android:layout_marginTop="20dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginEnd="65dp"
             android:text="Next"
             android:textColor="@color/white"
             android:textSize="20sp"
